@@ -1,0 +1,21 @@
+{
+  "name": "@wraith/module-idle",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "tilmana",
+  "description": "Idle & tab visibility tracker — detects when the user is active, idle, or on another tab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tilmana/wraith",
+    "directory": "modules/wraith-idle"
+  },
+  "main": "index.jsx",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "dependencies": {
+    "@framework/ui": "workspace:*"
+  }
+}
